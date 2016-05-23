@@ -22,10 +22,10 @@ void push(int a)
 }
 int IsEmpty()
 {
-    if(head==NULL)
-        return 1;
-    else
+    if(head != NULL)
         return 0;
+    else
+        return 1;
 }
 int top()
 {
