@@ -53,7 +53,7 @@ void showAll(int n) {
             }
             printf("\n");
         }
-        else printf("\n%d :",i);
+        else printf("%d :\n",i);
 
     }
 }
